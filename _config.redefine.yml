@@ -50,7 +50,7 @@ style:
     title_color:
       light: "#fff" # first screen title color (light mode)
       dark: "#d1d1b6" # first screen title color (dark mode)
-    description: Theme Redefine # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    description: 妖居小憩 # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
     custom_font: # custom font for the first screen
       enable: false
       font_family: # the font family name of the url below
@@ -89,13 +89,13 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
   # Status: 
   #   path: https://status.evanluo.top/
   #   icon: fa-regular fa-chart-bar
-  # About: 
-  #   icon: fa-regular fa-user
-  #   submenus:
+  About: 
+     icon: fa-regular fa-user
+     submenus:
   #     Me: /about
   #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
   #     Blog: https://ohevan.com
-  #     Friends: /friends
+      Friends: /friends
   # Links: 
   #   icon: fa-regular fa-link
   #   submenus:
@@ -239,7 +239,7 @@ lazyload:
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false
+  enable: true
 
 # ---------------------------------------------------------------------------------------
 # PJAX
